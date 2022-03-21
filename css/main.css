@@ -2,13 +2,14 @@ div {
     width: 100px;
     float: left;
   }
-  img {
+img {
     width: 30%;
     float: left;
     margin: 1.66%
+    
   }
   
-  p {
+p {
     margin-left: 1.66%;
     font-family: Raleway;
     text-transform: uppercase;
