@@ -9,7 +9,7 @@ img {
     
   }
   
-p {
+.name {
     margin-left: 1.66%;
     font-family: Raleway;
     text-transform: uppercase;
@@ -21,3 +21,6 @@ p {
     padding-top: 5px;
   }
   
+  .intro {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
