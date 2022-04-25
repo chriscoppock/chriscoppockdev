@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
@@ -13,18 +14,65 @@
 <link rel="manifest" href="/site.webmanifest">
     <title>Portfolio</title>
 </head>
-<a>
+<body>
+  <header class="hero">
+      <div id="navbar" class="navbar top">
+          <h1 class="logo">
+              <span class="text-primary"><i class="fas fa-book-open"></i> Chris Coppock</span>
+          </h1>
+          <nav>
+              <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#blog">Blog</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </nav>
+      </div>
 
-<p class="name">Chris / Coppock</p>
+      <div id="home" class="content">
+        <h1>Let's build awesome software</h1>
+        <p></p>
+        <a href="#blog" class="btn" i class="fas fa-chevron-right">Learn More</i></a>
+    </div>
+</header>
+<br>
+
 <main>
-  <p class="intro">Here is some stuff I've created or been a part of</p>
+ <section id="portfolio" class="portfolio"> 
+  <div class="row">
+    <div class="column">
+        <div class="column-1">
+          <h2 class="portfolio_title">Portfolio</h2>
+<p class="intro">Here is some stuff I've created or been a part of:</p>
 <a href="https://coppockfamilyportfolio.netlify.app"><img src="assets/images/familyportfolio.gif" alt="Video landing Portfolio Page"></a>
 <a href="https://redravensolutions.com"><img src="/assets/images/redravensolutionssite.png" alt="consulting wordpress site"></a>
 <a href="https://incomparable-pie-201386.netlify.app/index.html"><img src="/assets/images/hotelsite.png" alt="hotel webpage"></a>
 <a href="https://incandescent-cocada-02f609.netlify.app/"><img src="/assets/images/edgeledgersite.png" alt="financial consulting firm website"></a>
-
-
-
+        </div>
+        </div>
+  </div>
+</section>
+<br>
+<section id="blog" class="blog flex-columns flex-reverse">
+  <div class="row">
+      <div class="column">
+          <div class="column-1">
+              <img src="/assets/images/blog.jpg" alt="">
+          </div>
+      </div>
+      <div class="column">
+          <div class="column-2 bg-secondary">
+              <h4>April 15, 2022</h4>
+              <h2>Blog post one</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis est sapiente perspiciatis debitis. Temporibus iste impedit deserunt? Adipisci, esse debitis?</p>
+              <a href="blog.html" class="btn btn-outline">
+                  <i class="fas fa-chevron"></i>
+                  Read Our Blog</a>
+          </div>
+      </div>
+  </div>
+</section>
 </main>
 </body>
 </html>
